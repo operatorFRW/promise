@@ -1,0 +1,125 @@
+:root {
+  --orange-color: #F2994A;
+  --gray-color: #B5B5B5;
+  --turquoise-color: #99EFD0;
+  --purple-color: #8476AA;
+  --white-color: #FFFFFF;
+  --neutral-color: #6D6D78;
+  --gray-white-color: #F6F6F6;
+}
+
+body {
+  background: linear-gradient(222.26deg, #3B1D60 1.22%, #040D3E 106.28%);
+}
+
+.button {
+  margin: 0;
+  border: none;
+  padding: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+
+.button-rectangle {
+  padding: 8px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  border: 1px solid var(--orange-color);
+
+  color: var(--orange-color);
+  font-family: Rubik;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+
+.button-rectangle--orange {
+  border: none;
+  color: var(--white-color);
+  background-color: var(--orange-color);
+  box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.13);
+}
+
+.container {
+  padding: 0 170px;
+}
+
+.container-main {
+  width: 997px;
+  margin: 0 auto;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.header__btnSign {
+  width: 112px;
+}
+
+.header__wrap-button {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header__burger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: var(--orange-color);
+  padding: 11px;
+  border-radius: 50%;
+  gap: 2px;
+  margin-right: 44px;
+}
+
+.header__burger::after,
+.header__burger::before {
+  content: '';
+  background: var(--white-color);
+  border-radius: 2px;
+  width: 14px;
+  height: 6px;
+}
+
+.header__link-nav {
+  color: var(--gray-color);
+  font-family: 'Calibri', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header__wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__wrap-nav {
+  display: flex;
+}
+
+.header {
+  padding-top: 79px;
+}
+
+.header__img {
+  position: absolute;
+  top: 220px;
+  right: 0;
+  z-index: 0;
+}
